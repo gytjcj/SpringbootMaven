@@ -1,0 +1,80 @@
+<script>
+			$(function(){
+				//$("#f1,#f2").hide();
+				//$("#maintainrecordid").click(function(){
+					//alert("故障编号不可修改");
+				//})
+				
+				$("#f2,#f3,#f4,#f5").hide();
+				
+				setInterval(getDate,1000);
+				 function getDate(){
+					 var date = new Date();
+	                 //格式化为本地时间格式
+	                 var date = date.toLocaleString('chinese',{hour12:false});
+	                 $("#nowtime").val(date);
+	                 $("input[name='responsetime']").val(date);
+	                 
+				}
+				
+				$(".sql_maintainrecord").click(function() {
+					var len = $(this).find('td').length;
+					var maintainrecord = new Array();
+					for(var i = 0;i<len;i++){
+						maintainrecord[i] = $(this).find('td').eq(i).text();
+					}
+					
+					$("#maintainrecordid").val(maintainrecord[0]);
+					$("#deviceid").val(maintainrecord[1]);
+					$("#repairasktime").val(maintainrecord[2]);
+					$("#repairaskoffice").val(maintainrecord[3]);
+					$("#repairaskpeople").val(maintainrecord[4]);
+					$("#remarkinfo").val(maintainrecord[6]);
+				})
+				
+				$("a").click(function(){
+					$("a").removeClass("one");
+					$(this).addClass("one");
+				});
+				
+				$(".one").click(function(){
+					$("table").hide();
+					$(".tab1").show();
+				});
+				$(".tow").click(function(){
+					$("table").hide();
+					$("#f2,.tab2").show();
+				});
+				$(".three").click(function(){
+					$("table").hide();
+					$("#f3,.tab3").show();
+				});
+				$(".four").click(function(){
+					$("table").hide();
+					$("#f4,.tab4").show();
+				});
+				$(".five").click(function(){
+					$("table").hide();
+					$("#f5,.tab5").show();
+				})
+				
+				//清空
+				$("input[type='reset']").click(function(){
+					var reset = confirm("清空？");
+					if(reset==true)
+						return true;
+					else return false;
+					
+				})
+			});
+			
+			//字数限制50
+			function checkLength(which) {
+				 var maxChars = 50;
+				 if (which.value.length > maxChars)
+				 which.value = which.value.substring(0,maxChars);
+				 var curr = maxChars - which.value.length;
+				 document.getElementById("size").innerHTML = curr.toString();
+				 }
+			
+		</script>

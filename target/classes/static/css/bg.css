@@ -1,0 +1,72 @@
+body{
+	background:url(../imges/ºèÖÂ±ÚÖ½À¶.webp);
+	 background-repeat: no-repeat;   /* //²»ÖØ¸´ */
+    background-size: 100% 100%;     /* // ÂúÆÁ */
+    /* filter:alpha(opacity=200);
+    -moz-opacity:2.0;
+    opacity:2.00; */
+}
+/* indexÑùÊ½ */
+ /* ¶¥²¿ */
+            #top{
+                width: 98%;
+                height: 120px;
+                border-bottom:  3px solid black;               
+                background-color:#97CBFF;
+                position:relative;
+     			top:6px;
+     			left:15px;
+                
+            }
+          /* body{
+          	background:url(../images/ºèÖÂ±ÚÖ½À¶.jpg) ;
+          	background-repeat: no-repeat;
+          } */
+     		.toplogo{
+     			width:120px;
+            	height:40px;
+     			position:relative;
+     			top:20px;
+     			left:12px;
+     		}
+     		.toptitle{
+     			position:relative;
+     			top:0px;
+     			left:43%;
+     		}
+       		img{
+            	width:105px;
+            	height:35px;
+            }
+            /* Ö÷Ìå */
+            #box{
+                width: 98%;
+                height: 600px;
+           
+               /*  background:url(../images/112.jpg) ;
+          		background-repeat: no-repeat;  */
+                margin:auto;
+                position:relative;
+     			top:12px;
+     			
+               
+                /* filter:alpha(Opacity=80);-moz-opacity:0.5;opacity: 0.5; */
+            }
+           
+            .left{
+                width: 100%;
+                height: 100%;
+               /*  border-right: 1px solid black;  */
+                background-image: url(images.ºèÖÂ±ÚÖ½À¶.png);
+                margin:auto;
+                float: left;
+                text-align:left;
+            }
+            /* .right{
+                width: 87%;
+                height: 100%;
+                border: 1px solid red; 
+              background-color: seagreen;
+                margin:auto;
+                float: right;
+            } */

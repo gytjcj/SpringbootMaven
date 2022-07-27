@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8">
+<title>设备故障申报</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+<link type="text/css" rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+	<div id="f3">
+		<form action="/deviceinfo/savemaintainrecord" method="post">
+			<table border="1" class="tab3">
+				<tr>
+					<th colspan="2">
+						<h2>设备故障申报</h2>
+					</th>
+				</tr>
+				<tr class="ta1">
+					<td>
+					     
+						设备资产编号：<input name="deviceassetid" /><br /> 
+						设备编号：<input name="deviceid" /><br />
+						报修处室： <input name="repairaskoffice" />
+					</td>
+					<td>
+						报修时间：<input name="repairasktime" class="nowtime read_only"
+								readonly="readonly" /><br /> 
+						报修人： <input name="repairaskpeople" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						故障简要说明：<textarea class="textbox" onkeyup="checkLength(this);" 
+								name="description"></textarea><br /><br /><br /> 
+						<span style="font-size: xx-small;">字数剩余：<span id="size">50</span></span>
+					</td>
+					<td class="ta1"><input type="hidden" name="repairinfo"
+						value="未修复" /> 
+						<input type="reset" class="btn" value="清空" /> 
+						<input type="submit" class="btn" value="提交" /></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+
+</html>

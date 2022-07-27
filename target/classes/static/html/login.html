@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登录</title>
+<script type="text/javascript" src="/js/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+<link type="text/css" rel="stylesheet" href="/css/index.css">
+<link type="text/css" rel="stylesheet" href="/css/login.css">
+
+<!--网页小图标-->
+<link rel="icon" href="../images/鸿致科技.ico" type="image/x-icon"/>
+</head>
+<style type="text/css">
+body{
+	 background:url(../images/鸿致壁纸蓝.jpg) ; 
+                background-repeat: no-repeat;
+}
+</style>
+
+<body>
+<script type="text/javascript">
+$(function() {
+	$("html,input,#DDv").hover(function() {
+		//集合ID，能统一联动
+
+				if ($("#password").val() == "") {
+					$("#DDv").text("");
+				} else if ($("#mpassword").val().length < 6||$("#mpassword").val().length > 6) {
+					$("#DDv").css("color", "red")
+					$("#DDv").text("!密码位数不正确");
+				} 
+			})
+});
+</script>
+
+	<div id="f1">
+	<form action="/deviceinfo/doLogin" method="post">
+		<div>
+			<b>账号：</b> <input type="text" name="username" /><br />
+		<div class="content content1">
+			<i></i>
+			<p>请输入您的账号</p>
+		</div>
+		</div>
+		<div>
+			<b>密码：</b> <input type="password" name="password" id="password"/>
+		<div class="content content2" >
+			<i></i>
+			<p>请输入您的密码</p>
+			<div id="DDv" style="width: 150px;" align="left"></div>
+		</div>
+		</div>
+
+			<input type="submit" value="登录" class="btn" />
+			<input type="reset" value="重置"  class="btn" />
+			
+		</form>
+	<!-- 	<form action="/deviceinfo/doLogin" method="post">
+			<table border="1" >
+				<tr>
+					<th colspan="2">
+						<h2>登录</h2>
+					</th>
+				</tr>
+				<tr class="ta1">
+					<td>
+						账 号：<input  name="username" type="text"/><br />
+						密 码：<input name="password" type="password"/><br />
+						       <p th:text="${msg}" ></p>
+						<input type="reset" class="btn" value="清空" />
+						<input type="button" class="btn" value="注册" />
+						<input type="submit" class="btn" value="登录" />
+					</td>
+				</tr>
+			</table>
+		</form> -->
+	</div>
+</body>
+</html>

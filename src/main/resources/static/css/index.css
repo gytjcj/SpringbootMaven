@@ -1,0 +1,170 @@
+* {
+	margin-top: 0;
+}
+
+
+ body{
+	background-image:url(static.imges.htmlbackground.webp)
+	no-repeat center 0	
+} 
+
+body{
+	margin-top: 10px;
+}
+.box_1 {
+	margin-top: 5%;
+	margin-bottom: auto;
+	text-align: center;
+}
+
+
+/* form{
+	border-radius: 20px;
+	height:40%;
+}
+.theme-popover{
+	height:40%;
+} */
+table {
+	/* height:570px; */
+	border-collapse: collapse;
+	margin: auto;
+	/* 允许字母数字换行 */
+	word-wrap: break-word;
+}
+
+table td {
+	padding: 10px;
+}
+
+.tab_tbody {
+	display: block;
+	height: 400px;
+	overflow-y: scroll;
+	padding-right: 2px;
+}
+
+.tab_thead, .tab2 tbody tr, .tab4 tbody tr, .tab5 tbody tr, .tab6 tbody tr
+	{
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.tab_thead {
+	width: calc(100% - 19px)
+}
+
+.btn {
+	height: 25px;
+	width: 86px;
+}
+
+.tab2 input, .tab4 input, .tab5 input, .tab6 input {
+	width: 48%;
+}
+
+.tab4 textarea {
+	width: 60%;
+}
+
+input {
+	border: 1px solid ;
+	height:20px; 
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+.ta1 { 
+	text-align: right;
+}
+
+.textbox {
+	width: 169px;
+	height: 75px;
+	resize: none;
+	float: right;
+}
+
+.index_top{
+	border:1px;
+	background-image:url(images.鸿致壁纸蓝.png);
+}
+/* 时间自动获取框样式 */
+.time {
+	width: 172px;
+}
+/* 下拉框样式设置 */
+select {
+	height:23px;
+	width: 50%;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+/* table数据显示居中设置 */
+.sql_maintainrecord, .sql_maintainrecord2, .sql_deviceinfo,
+	.sql_devicetransfer {
+	text-align: center;
+}
+
+/* 只读框样式 */
+.read_only {
+	background-color: #DDDDDD;
+	border: 1px solid;
+	border-color: #dddddd;
+	outline: none;
+}
+
+
+
+.one,.two,.onenotsecret,.twonotsecret,.three,
+.four,.five,.six,
+.seven {
+	padding: 10px 20px;
+	text-decoration: none;
+	display: block;
+	border-top: 1px solid;
+}
+h3,h2{
+	padding-top: 20px;
+}
+.a_style {
+	background: #70B9DE;
+	color: #fff;
+}
+
+.tab_width {
+	width: 100%;
+}
+/* 背景 */
+iframe {
+	height: 580px;
+	width: 92%;
+	border:0;
+}
+.nav {
+	height:580px;
+	width:8%;
+	border-bottom:  3px solid black;
+	
+	float: left;
+	text-align: center;
+	font-size:12px;
+	background-color:#C4E1FF;
+}
+ .form1{
+    overflow:hidden;
+	border-radius: 15px;
+	
+	/* background-color:#BBFFFF; */
+} 
+.tab1,.tab3,.tab2 , .tab4 , .tab5 , .tab6 {
+	overflow:hidden;
+	border-radius: 15px;
+	background-color:#BBFFFF; 
+	border:none;
+}
+.tab1 td,.tab3 td,.tab2 td , .tab4 td , .tab5 td , .tab6 td{
+	font-size:14px;
+}

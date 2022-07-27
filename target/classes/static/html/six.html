@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8">
+<title>设备移交</title>
+<script type="text/javascript" src="/js/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+<link type="text/css" rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+	<div id="f6">
+		<form class="form1" action="/deviceinfo/savedevicetransfer" method="post">
+			<table border="1" class="tab6 tab_width">
+				<tr>
+					<th colspan="14">
+						<h2>设备移交</h2>
+					</th>
+				</tr>
+				<tr class="ta1">
+					<td>
+						设备资产编号：<input id="deviceassetid" name="deviceassetid" /><br />
+						设备编号：<input id="deviceid" name="deviceid" />
+					</td>
+					<td>
+						移交时间：<input class="nowtime read_only" readonly="readonly"
+						name="transferdate" /><br />
+						上任使用部门：<input name="oldusedepartment" /> 
+						
+					</td>
+					<td>
+						变更使用部门：<input name="currentusedepartment" /><br />
+						上任安装位置：<input name="oldinstalllocation" /> 
+						
+					</td>
+					<td>
+					    变更安装位置：<input name="currentinstalllocation" /><br />
+						上任使用人：<input name="olduseperson" /> 
+						
+					</td>
+					<td>
+					    变更使用人：<input name="currentuseperson" /><br />
+						上任责任人：<input name="oldpersonincharge" /> 
+						
+					</td>
+					
+					<td >
+					    变更责任人：<input name="currentpersonincharge" /><br />
+					    <input type="reset" class="btn" value="清空" />
+						<input type="submit" class="btn" value="提交" /></td>
+				</tr>
+				<thead class="tab_thead">
+					<tr>
+						<th>设备移交编号</th>
+						<th>设备资产编号</th>
+						<th>设备编号</th>
+						<th>变更使用部门</th>
+						<th>变更安装位置</th>
+						<th>变更使用人</th>
+						<th>变更责任人</th>
+						<th>上任使用部门</th>
+						<th>上任安装位置</th>
+						<th>上任使用人</th>
+						<th>上任责任人</th>
+						<th>移交时间</th>
+					</tr>
+				</thead>
+				<tbody class="tab_tbody">
+					<tr th:each="devicetransfer : ${devicetransferlist}"
+						class="sql_devicetransfer">
+						<td th:text="${devicetransfer.devicetransferid}"></td>
+						<td th:text="${devicetransfer.deviceassetid}"></td>
+						<td th:text="${devicetransfer.deviceid}"></td>
+						<td th:text="${devicetransfer.currentusedepartment}"></td>
+						<td th:text="${devicetransfer.currentinstalllocation}"></td>
+						<td th:text="${devicetransfer.currentuseperson}"></td>
+						<td th:text="${devicetransfer.currentpersonincharge}"></td>
+						
+						<td th:text="${devicetransfer.oldusedepartment}"></td>
+						<td th:text="${devicetransfer.oldinstalllocation}"></td>
+						<td th:text="${devicetransfer.olduseperson}"></td>
+						<td th:text="${devicetransfer.oldpersonincharge}"></td>
+						
+						<td th:text="${devicetransfer.transferdate}"></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+</body>
+
+</html>

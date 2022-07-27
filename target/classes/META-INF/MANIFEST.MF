@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: 郜小蒋
+Build-Jdk: 16.0.2
+Implementation-Title: Maven hongzhi Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.jcj
+Implementation-URL: http://www.example.com
+Created-By: Maven Integration for Eclipse
+
