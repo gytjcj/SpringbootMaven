@@ -1,13 +1,13 @@
 body{
-	background:url(../imges/ºèÖÂ±ÚÖ½À¶.webp);
-	 background-repeat: no-repeat;   /* //²»ÖØ¸´ */
-    background-size: 100% 100%;     /* // ÂúÆÁ */
+	background:url(../imges/ï¿½ï¿½ï¿½Â±ï¿½Ö½ï¿½ï¿½.webp);
+	 background-repeat: no-repeat;   /* //ï¿½ï¿½ï¿½Ø¸ï¿½ */
+    background-size: 100% 100%;     /* // ï¿½ï¿½ï¿½ï¿½ */
     /* filter:alpha(opacity=200);
     -moz-opacity:2.0;
     opacity:2.00; */
 }
-/* indexÑùÊ½ */
- /* ¶¥²¿ */
+/* indexï¿½ï¿½Ê½ */
+ /* ï¿½ï¿½ï¿½ï¿½ */
             #top{
                 width: 98%;
                 height: 120px;
@@ -19,7 +19,7 @@ body{
                 
             }
           /* body{
-          	background:url(../images/ºèÖÂ±ÚÖ½À¶.jpg) ;
+          	background:url(../images/ï¿½ï¿½ï¿½Â±ï¿½Ö½ï¿½ï¿½.jpg) ;
           	background-repeat: no-repeat;
           } */
      		.toplogo{
@@ -36,9 +36,9 @@ body{
      		}
        		img{
             	width:105px;
-            	height:35px;
+            	height:90px;
             }
-            /* Ö÷Ìå */
+            /* ï¿½ï¿½ï¿½ï¿½ */
             #box{
                 width: 98%;
                 height: 600px;
@@ -57,7 +57,7 @@ body{
                 width: 100%;
                 height: 100%;
                /*  border-right: 1px solid black;  */
-                background-image: url(images.ºèÖÂ±ÚÖ½À¶.png);
+                background-image: url(images.ï¿½ï¿½ï¿½Â±ï¿½Ö½ï¿½ï¿½.png);
                 margin:auto;
                 float: left;
                 text-align:left;

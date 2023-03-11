@@ -8,6 +8,6 @@ import com.maven.model.User;
 
 public interface UserRepository extends JpaRepository<User, Integer>{
 	
-	public User getByPasswordAndUsername(String username,String password);
+	public User findByPasswordAndUsername(String username,String password);
 
 }

@@ -1,39 +1,4 @@
-
-
 $(function() {
-      var url = "/deviceinfo/";
-	$("iframe").attr('src', '../html/one.html');
-	
-	$(".one").click(function() {
-		$("iframe").attr('src',url+ 'one');
-	});
-	$(".onenotsecret").click(function() {
-		$("iframe").attr('src', url+ 'onenotsecret');
-	});
-    
-	$(".two").click(function() {
-		$("iframe").attr('src', '/deviceinfo/two');
-	});
-	$(".twonotsecret").click(function() {
-		$("iframe").attr('src', '/deviceinfo/twonotsecret');
-	});
-	
-	
-	$(".three").click(function() {
-		$("iframe").attr('src', '../html/three.html');
-	});
-	$(".four").click(function() {
-		$("iframe").attr('src', '/deviceinfo/four');
-	});
-	$(".five").click(function() {
-		$("iframe").attr('src', '/deviceinfo/five');
-	});
-	$(".six").click(function() {
-		$("iframe").attr('src', '/deviceinfo/six');
-	});
-	
-    $(".select").width($("input").width()+6);
-	$(".select2").width($("input").width()+30);
 	
 	setInterval(getDate, 1000);
 	function getDate() {

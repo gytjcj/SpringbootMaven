@@ -1,7 +1,8 @@
-
+server:
+  port: 8081
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/hongzhi?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://localhost:3306/hongzhi?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -13,9 +14,15 @@ spring:
     show-sql: true
   thymeleaf:
     prefix: classpath:/templates/
-logging:
-  level:
-    SpringbootMaven: DEBUG 
+    check-template-location: true
+    cache: false
+    suffix: .html
+    #encoding: UTF-8
+    #content-type: text/html
+    mode: HTML5
+#logging:
+#  level:
+#    SpringbootMaven: DEBUG 
 #优先级从高到低依次为：OFF FATAL ERROR WARN INFO DEBUG TRACE ALL
 #ALL   最低等级的用于打开所有日志记录
 #TRACE 很低的日志级别一般不会使用
