@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Built-By: 郜小蒋
+Built-By: Lenov
 Build-Jdk: 17.0.6
 Implementation-Title: Maven hongzhi Webapp
 Implementation-Version: 0.0.1-SNAPSHOT
