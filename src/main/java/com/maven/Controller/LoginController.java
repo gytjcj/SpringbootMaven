@@ -12,6 +12,7 @@ import com.maven.model.User;
 import com.maven.service.UserService;
 
 @Controller
+//@RequestMapping("/user")
 public class LoginController {
 
 //	登录service注入
@@ -37,14 +38,21 @@ public class LoginController {
         if(user1!=null)
         {
 //        	System.out.print(user1);
-            model.addAttribute("username",user1);
+        	session.setAttribute("username", user1);//登陆成功则保存用户信息到session
+//            model.addAttribute("username",user1);
             return "../static/xadmin/index";
         }
         else
         {
             model.addAttribute("message","失败");
-            return "../static/html/enter";
+            return "redirect:../static/html/error";
         }
+    }
+//退出登录
+	@RequestMapping("/loginout")
+    public String loginout(HttpSession session){
+		session.removeAttribute("username");//退出登录则清除session中的用户信息
+        return "../static/xadmin/login";
     }
 //注册
     @RequestMapping("/regist")
