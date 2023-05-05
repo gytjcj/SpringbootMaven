@@ -3,15 +3,15 @@
 
  Source Server         : localhost
  Source Server Type    : MySQL
- Source Server Version : 80028
+ Source Server Version : 80032
  Source Host           : localhost:3306
- Source Schema         : hongzhi
+ Source Schema         : springbootmaven
 
  Target Server Type    : MySQL
- Target Server Version : 80028
+ Target Server Version : 80032
  File Encoding         : 65001
 
- Date: 05/08/2022 12:20:55
+ Date: 05/05/2023 17:19:22
 */
 
 SET NAMES utf8mb4;
@@ -169,6 +169,24 @@ CREATE TABLE `maintainrecord`  (
 INSERT INTO `maintainrecord` VALUES (1, '设备资产编号', '设备 编号', '2022-03-09 10:00:07', '工程部', '李四', NULL, '已修复', '2022-03-09', '故障类型', '故障原因', '备件情况', '解决方法', '满意', NULL, '三分大赛广东省', NULL);
 INSERT INTO `maintainrecord` VALUES (2, '设备资产编号2', '设备 编号2', '2022-03-09 10:16:53', '工程部2', '王五', '2022-03-09 10:17:11', '已修复', '2022-03-09', '故障类型', '故障原因', '备件情况', '解决方法', '一般', '李四', '放', NULL);
 INSERT INTO `maintainrecord` VALUES (3, '0527', '编号2504', '2022-05-31 19:32:05', '处室30456', '万二麻子', '2022-05-31 19:33:36', '已修复', '2022-05-31', '让2453', '22', '56436', '喏惹', '满意', '李四', '都对公司拟非拉饿了', NULL);
+
+-- ----------------------------
+-- Table structure for receiverinfo
+-- ----------------------------
+DROP TABLE IF EXISTS `receiverinfo`;
+CREATE TABLE `receiverinfo`  (
+  `receiverinfoid` int NOT NULL AUTO_INCREMENT,
+  `receiverinfoname` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`receiverinfoid`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of receiverinfo
+-- ----------------------------
+INSERT INTO `receiverinfo` VALUES (1, '张三');
+INSERT INTO `receiverinfo` VALUES (2, '李四');
+INSERT INTO `receiverinfo` VALUES (3, '王五');
+INSERT INTO `receiverinfo` VALUES (4, '刘二麻子');
 
 -- ----------------------------
 -- Table structure for user

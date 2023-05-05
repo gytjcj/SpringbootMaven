@@ -7,3 +7,6 @@ import com.maven.model.Devicetype;
 public interface DevicetypeRepository extends JpaRepository<Devicetype, Integer>{
 
 }
+
+
+

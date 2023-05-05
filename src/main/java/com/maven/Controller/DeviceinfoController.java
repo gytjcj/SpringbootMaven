@@ -10,11 +10,13 @@ import com.maven.model.Deviceinfo_secret;
 import com.maven.model.Devicetransfer;
 import com.maven.model.Devicetype;
 import com.maven.model.Maintainrecord;
+import com.maven.model.Receiverinfo;
 import com.maven.service.Deviceinfo_notsecretService;
 import com.maven.service.Deviceinfo_secretService;
 import com.maven.service.DevicetransferService;
 import com.maven.service.DevicetypeService;
 import com.maven.service.MaintainrecordService;
+import com.maven.service.ReceiverinfoService;
 
 @Controller
 @RequestMapping("/deviceinfo")
@@ -23,6 +25,10 @@ public class DeviceinfoController {
 //	设备类型service注入
 	@Autowired 
 	DevicetypeService devicetypeService;
+	
+//	维修人service注入
+	@Autowired 
+	ReceiverinfoService receiverinfoService;
 	
 //	台账service注入(涉密)
 	@Autowired
@@ -77,6 +83,7 @@ public class DeviceinfoController {
 		//设备类型查询
    		List<Devicetype> devicetype1 = devicetypeService.findAll();
    		model.addAttribute("devicetype", devicetype1);
+   		
 		model.addAttribute("deviceinfonotLikelist", deviceinfonotLikelist);
 		return "../static/xadmin/standingbook-notsecretquery";
 	}
@@ -85,7 +92,13 @@ public class DeviceinfoController {
 	@RequestMapping("/four")
 	public String four(Model model) { 
 		List<Maintainrecord> maintainrecordlist = maintainrecordService.findByFirstname();
-		model.addAttribute("maintainrecordlist", maintainrecordlist);
+		
+		//设备类型查询
+   		List<Receiverinfo> receiverinfo1 = receiverinfoService.findAll();
+   		model.addAttribute("receiverinfo", receiverinfo1);
+   		
+   		model.addAttribute("maintainrecordlist", maintainrecordlist);
+   		
 		return "../static/xadmin/hitch-dispatch";
 	}
 

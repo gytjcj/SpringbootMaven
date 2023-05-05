@@ -14,6 +14,7 @@ public class DevicetypeServiceImpl implements DevicetypeService{
 	
 	@Autowired 
 	DevicetypeRepository devicetypeRepository;
+
 	
 	 @Override
 	 public List<Devicetype> findAll() {

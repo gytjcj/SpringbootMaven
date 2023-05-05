@@ -47,11 +47,11 @@
 									<td>
 										故障编号：<input id="maintainrecordid" name="maintainrecordid"
 										readonly="readonly" class="read_only" /><br /> 
+										
 										派单到：<select name="receiver" class="select">
 											<option style="display: none"></option>
-											<option>张三</option>
-											<option>李四</option>
-											<option>王五</option>
+											<option th:each="receiverinfo : ${receiverinfo}"
+												th:text="${receiverinfo.receiverinfoname}"></option>
 									</select>
 									</td>
 									<td>
