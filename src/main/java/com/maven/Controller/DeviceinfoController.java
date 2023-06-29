@@ -76,10 +76,8 @@ public class DeviceinfoController {
 
 // 设备台账查询(非涉密)	
 	@RequestMapping("/twonotsecret")
-	public String twonotsecret(Model model, Integer id,String currentusedepartment,  String deviceid,     String devicemodel, String devicetype,
-                                           String manufacturersinfo,     String serialnumber, String hdisksn,     String applicationname) {
-		List<Deviceinfo_notsecret> deviceinfonotLikelist = deviceinfo_notsecretService.findByIpContainingAndStatusContaining(id,currentusedepartment,
-				deviceid, devicemodel, devicetype, manufacturersinfo, serialnumber, hdisksn, applicationname);
+	public String twonotsecret(Model model,Deviceinfo_notsecret deviceinfo_notsecret) {
+		List<Deviceinfo_notsecret> deviceinfonotLikelist = deviceinfo_notsecretService.findlikenotsecret(deviceinfo_notsecret);
 		//设备类型查询
    		List<Devicetype> devicetype1 = devicetypeService.findAll();
    		model.addAttribute("devicetype", devicetype1);

@@ -20,10 +20,10 @@ public class Deviceinfo_notsecretServiceImpl implements Deviceinfo_notsecretServ
 
 //	台账查询(非涉密)
 //   @Override
-		public List<Deviceinfo_notsecret> findByIpContainingAndStatusContaining(Integer id, String currentusedepartment ,String deviceid,String devicemodel, String devicetype, String manufacturersinfo, String serialnumber, String hdisksn, String applicationname) {
+		public List<Deviceinfo_notsecret> findlikenotsecret(Deviceinfo_notsecret deviceinfo_notsecret) {
 			// TODO Auto-generated method stub
-			
-			return deviceinfo_notsecretRepository.findByIpContainingAndStatusContaining(id,currentusedepartment,deviceid,devicemodel, devicetype, manufacturersinfo, serialnumber, hdisksn, applicationname);
+
+			return deviceinfo_notsecretRepository.findlikenotsecret(deviceinfo_notsecret);
 		}
 
 //	台账录入(非涉密)

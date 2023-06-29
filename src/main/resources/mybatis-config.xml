@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+<!--        约束-->
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!-- 环境配置（开发，测试，生产） -->
+<!--        1.开发-->
+    <environments default="development">
+        <environment id="development">
+<!--        事务管理  采用JDBC事务管理模式-->
+            <transactionManager type="JDBC"/>
+            <!-- 数据库连接相关配置-->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver" />
+                <property name="url" value="jdbc:mysql://localhost:3306/springbootmaven" />
+                <property name="username" value="root" />
+                <property name="password" value="123456" />
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- mapping文件路径配置 -->
+    <mappers>
+        <mapper resource="mappers/DeviceinfoNotsecretMapper.xmlMapper.xml"/>
+    </mappers>
+
+</configuration>
