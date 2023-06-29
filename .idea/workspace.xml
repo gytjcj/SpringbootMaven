@@ -4,231 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3e38964-8135-4f3e-9447-dad5105c757a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/DeviceinfoNotsecretMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_54.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_7_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_1_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maven/Controller/DeviceinfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maven/Controller/DeviceinfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maven/dao/Deviceinfo_notsecretRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maven/dao/Deviceinfo_notsecretRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maven/dao/mapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maven/service/Deviceinfo_notsecretService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maven/service/Deviceinfo_notsecretService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maven/service/serviceimpl/Deviceinfo_notsecretServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maven/service/serviceimpl/Deviceinfo_notsecretServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/css/font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/css/theme1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/css/theme1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/css/theme2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/css/theme2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/css/theme3.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/css/theme3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/css/theme4.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/css/theme4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/css/theme5.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/css/theme5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/css/xadmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/css/xadmin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/equipment-devolve.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/equipment-devolve.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/equipment-maintenance.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/equipment-maintenance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/fonts/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/fonts/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/hitch-dispatch.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/hitch-dispatch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/hitch-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/hitch-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/js/xadmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/js/xadmin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/js/xcity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/js/xcity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/css/layui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/css/layui.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/css/layui.mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/css/modules/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/css/modules/code.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/css/modules/laydate/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/font/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/flow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/laydate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/layedit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/laypage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/rate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/tree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/lay/modules/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/layui.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/lib/layui/layui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/standingbook-notsecret.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/standingbook-notsecret.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/standingbook-notsecretquery.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/standingbook-notsecretquery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/standingbook-secret.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/standingbook-secret.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/standingbook-secretquery.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/standingbook-secretquery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/xadmin/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/xadmin/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/enter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.jcj/Maven/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.jcj/Maven/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/Controller/DeviceinfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/Controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/Controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/dao/Deviceinfo_notsecretRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/dao/Deviceinfo_secretRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/dao/Deviceinfo_secretRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/dao/DevicetransferRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/dao/DevicetransferRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/dao/DevicetypeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/dao/DevicetypeRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/dao/MaintainrecordRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/dao/MaintainrecordRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/dao/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/dao/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/dao/mapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/model/Deviceinfo_notsecret.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/model/Deviceinfo_notsecret.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/model/Deviceinfo_secret.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/model/Deviceinfo_secret.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/model/Devicetransfer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/model/Devicetransfer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/model/Devicetype.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/model/Devicetype.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/model/Maintainrecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/model/Maintainrecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/service/Deviceinfo_notsecretService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/service/Deviceinfo_secretService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/service/Deviceinfo_secretService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/service/DevicetransferService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/service/DevicetransferService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/service/DevicetypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/service/DevicetypeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/service/MaintainrecordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/service/MaintainrecordService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/service/serviceimpl/Deviceinfo_notsecretServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/service/serviceimpl/Deviceinfo_notsecretServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/service/serviceimpl/Deviceinfo_secretServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/service/serviceimpl/Deviceinfo_secretServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/service/serviceimpl/DevicetransferServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/service/serviceimpl/DevicetransferServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/service/serviceimpl/DevicetypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/service/serviceimpl/DevicetypeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/service/serviceimpl/MaintainrecordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/service/serviceimpl/MaintainrecordServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maven/service/serviceimpl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maven/service/serviceimpl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/css/font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/css/theme1.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/css/theme1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/css/theme2.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/css/theme2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/css/theme3.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/css/theme3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/css/theme4.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/css/theme4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/css/theme5.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/css/theme5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/css/xadmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/css/xadmin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/equipment-devolve.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/equipment-devolve.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/equipment-maintenance.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/equipment-maintenance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/fonts/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/fonts/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/hitch-dispatch.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/hitch-dispatch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/hitch-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/hitch-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/js/xadmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/js/xadmin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/js/xcity.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/js/xcity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/css/layui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/css/layui.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/css/layui.mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/css/modules/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/css/modules/code.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/css/modules/laydate/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/font/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/flow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/laydate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/layedit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/laypage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/rate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/tree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/lay/modules/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/layui.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/lib/layui/layui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/standingbook-notsecret.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/standingbook-notsecret.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/standingbook-notsecretquery.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/standingbook-notsecretquery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/standingbook-secret.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/standingbook-secret.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/standingbook-secretquery.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/standingbook-secretquery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/xadmin/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/xadmin/welcome.html" afterDir="false" />
-    </list>
+    <list default="true" id="e3e38964-8135-4f3e-9447-dad5105c757a" name="Default Changelist" comment="Default Changelist" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -242,6 +18,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -331,8 +113,17 @@
       <workItem from="1687930458640" duration="127000" />
       <workItem from="1687930605010" duration="1338000" />
       <workItem from="1688000390512" duration="1215000" />
-      <workItem from="1688001702143" duration="8392000" />
+      <workItem from="1688001702143" duration="9181000" />
     </task>
+    <task id="LOCAL-00001" summary="Default Changelist">
+      <option name="closed" value="true" />
+      <created>1688021392392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688021392392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,6 +140,10 @@
     <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
     <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
